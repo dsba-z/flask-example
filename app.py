@@ -62,7 +62,3 @@ def pclass_vs_sex():
     plt.savefig('static/tmp/pclass_vs_sex.png')
     return render_index ("pclass_vs_sex.png")
 
-if __name__ == "__main__":
-    app.run()
-
-
